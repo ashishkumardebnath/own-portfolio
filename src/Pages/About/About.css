@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Cardo:ital@1&family=Lora&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700;900&display=swap");
+
+.bannerFont {
+  font-family: "Lora", serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Cardo:ital@1&family=Lora&family=Poppins:wght@400;500&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@400;500;700;900&display=swap");
+
+.bannerFont1 {
+  font-family: "Lora", serif;
+}
