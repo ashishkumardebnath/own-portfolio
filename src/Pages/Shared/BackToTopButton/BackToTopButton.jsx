@@ -1,24 +1,40 @@
-// import React from "react";
-// import { Ripples } from "react-ripples";
-// import { FaArrowUp } from "react-icons/fa";
-// import "./BackToTopButton.css"; // Import the styles
+import { useState, useEffect } from "react";
+import { BsAirplane } from "react-icons/bs";
+import "./BackToTopButton.css"; // Create a CSS file for styling
 
-// const BackToTopButton = () => {
-//   return (
-//     <Ripples color="#87CEEB" className="continuous-ripple">
-//       <button
-//         className="fixed bottom-4 right-4 bg-blue-500 text-white p-2 rounded-full cursor-pointer"
-//         onClick={() => {
-//           window.scrollTo({
-//             top: 0,
-//             behavior: "smooth",
-//           });
-//         }}
-//       >
-//         <FaArrowUp />
-//       </button>
-//     </Ripples>
-//   );
-// };
+const BackToTopButton = () => {
+  const [isVisible, setIsVisible] = useState(false);
 
-// export default BackToTopButton;
+  const handleScroll = () => {
+    // Show the button when the user scrolls down, hide it otherwise
+    const scrollTop = window.scrollY;
+    setIsVisible(scrollTop > 300);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    // Add scroll event listener when component mounts
+    window.addEventListener("scroll", handleScroll);
+    // Remove scroll event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
+    <div
+      className={`back-to-top-button ${isVisible ? "visible" : ""}`}
+      onClick={scrollToTop}
+    >
+      <BsAirplane />
+    </div>
+  );
+};
+
+export default BackToTopButton;

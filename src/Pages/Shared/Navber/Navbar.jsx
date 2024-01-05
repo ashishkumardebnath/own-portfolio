@@ -1,5 +1,5 @@
 import { Navbar } from "keep-react";
-import logo from "../../../assets/logo.png";
+import logo from "../../../assets/logo1.png";
 import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -37,7 +37,7 @@ const NavBar = () => {
                     to="/works"
                     className="text-black text-lg font-medium px-3 py-1"
                   >
-                    Works
+                    Review
                   </NavLink>
                 }
               />

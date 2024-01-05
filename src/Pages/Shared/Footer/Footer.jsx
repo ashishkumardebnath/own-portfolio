@@ -13,11 +13,11 @@ import {
 import { Link } from "react-router-dom";
 import logo from "../../../assets/image/logo.png";
 // import ScrollToTop from "react-scroll-to-top";
-// import BackToTopButton from "../BackToTopButton/BackToTopButton";
+import BackToTopButton from "../BackToTopButton/BackToTopButton";
 const Footer = () => {
   return (
     <footer className="bg-[#bdf8b5] mt-3">
-      {/* <BackToTopButton></BackToTopButton> */}
+      <BackToTopButton></BackToTopButton>
       {/* <ScrollToTop smooth color="teal" /> */}
       <div className="max-w-screen-xl mx-auto">
         <div className="lg:flex md:flex flex-1 lg:px-2 md:px-8 py-10 px-4">
