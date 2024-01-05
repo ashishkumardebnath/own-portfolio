@@ -4,6 +4,7 @@ import Contact from "../../Contact/Contact";
 import Services from "../../Services/Services";
 import Home from "../../Home/Home";
 import Expertise from "../../Expertise/Expertise";
+import Testimonial from "../../Testimonial/Testimonial";
 
 export const router = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ export const router = createBrowserRouter([
         element: <Services></Services>,
       },
       {
-        path: "/expertise",
+        path: "/works",
+        element: <Testimonial></Testimonial>,
+      },
+      {
+        path: "/skills",
         element: <Expertise></Expertise>,
       },
       {

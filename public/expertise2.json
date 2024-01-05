@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "878jfh894rufsjfhi8ihf",
+    "name": "HTML",
+    "image": "https://i.ibb.co/DYPT5XF/html.png"
+  },
+  {
+    "_id": "878jfh893d34sjfhi8ihf",
+    "name": "CSS",
+    "image": "https://i.ibb.co/b5bSP5X/css.png"
+  },
+  {
+    "_id": "84djfh894rufsj45e34d8ihf",
+    "name": "Tailwind",
+    "image": "https://i.ibb.co/QPpSSGp/tailwind.jpg"
+  },
+  {
+    "_id": "344tersdfert43wfsq",
+    "name": "Bootstrap",
+    "image": "https://i.ibb.co/vQpzH2n/bootstrap.png"
+  },
+  {
+    "_id": "3464werdfert3qr32t534",
+    "name": "Javascript",
+    "image": "https://i.ibb.co/pJ82ksX/javascript.png"
+  },
+  {
+    "_id": "34534ergwtrddfsf523wt",
+    "name": "React",
+    "image": "https://i.ibb.co/17fwDKy/react.png"
+  },
+  {
+    "_id": "se4t4trtertrdfge",
+    "name": "Node",
+    "image": "https://i.ibb.co/54CfvML/node.png"
+  },
+  {
+    "_id": "87546trttrf523etrey264h894rufsjfhi8ihf",
+    "name": "MongoDB",
+    "image": "https://i.ibb.co/4fn8JND/mongodb.png"
+  },
+  {
+    "_id": "8frt4f523etrey264h894rufsjfhi8ihf",
+    "name": "Typescript",
+    "image": "https://i.ibb.co/4pdQVLg/typescript.png"
+  },
+  {
+    "_id": "8gef523etrey264h894rufsjfhi8ihf",
+    "name": "Express JS",
+    "image": "https://i.ibb.co/DKNRnGM/express-js.png"
+  },
+  {
+    "_id": "eg456645665fhtrgfr6567erttr",
+    "name": "DaisyUI",
+    "image": "https://i.ibb.co/ZKf9hwp/daisyui.png"
+  },
+  {
+    "_id": "878jf523etreyd33494rufsjfhi8ihf",
+    "name": "Firebase",
+    "image": "https://i.ibb.co/wWvqj7n/firebase.webp"
+  }
+]

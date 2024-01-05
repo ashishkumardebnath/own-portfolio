@@ -56,7 +56,7 @@ const NavBar = () => {
                 className="all-link"
                 linkName={
                   <NavLink
-                    to="/expertise"
+                    to="/skills"
                     className="text-black text-lg font-medium px-3 py-1"
                   >
                     Skills

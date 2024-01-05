@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { TextInput, Textarea } from "keep-react";
+import Swal from "sweetalert2";
 // import cover from '../../assets/images/cover3.jpg'
 // bg-gradient-to-b from-slate-50 to-cyan-100
 const Contact = () => {
@@ -16,15 +17,23 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_1wvqbxk",
-        "template_fwjckah",
+        `${import.meta.env.VITE_CNT_SERVICES_ID}`,
+        `${import.meta.env.VITE_CNT_TEMPLATE_ID}`,
         form.current,
-        "_KYie6sQQjGWbuXM5"
+        `${import.meta.env.VITE_CNT_USER_ID}`
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
+          e.target.reset();
+          Swal.fire({
+            position: "top-center",
+            icon: "success",
+            title: "Contact Successfully!",
+            showConfirmButton: false,
+            timer: 1500,
+          });
         },
         (error) => {
           console.log(error.text);
