@@ -62,7 +62,12 @@ const Contact = () => {
               <p className="mb-1 ml-1">
                 Name<span className="text-[#fc3a40]">*</span>
               </p>
-              <TextInput name="user_name" placeholder="Name" color="gray" />
+              <TextInput
+                name="user_name"
+                placeholder="Name"
+                color="gray"
+                required
+              />
             </div>
             <br />
             <div className="w-full -mb-3">
@@ -74,6 +79,7 @@ const Contact = () => {
                 name="user_email"
                 placeholder="Email"
                 color="gray"
+                required
               />
             </div>
             <br />
@@ -89,6 +95,7 @@ const Contact = () => {
                 color="white"
                 border={true}
                 rows={4}
+                required
               />
             </div>
             <input

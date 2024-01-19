@@ -29,7 +29,9 @@ const BackToTopButton = () => {
 
   return (
     <div
-      className={`back-to-top-button ${isVisible ? "visible" : ""}`}
+      className={`back-to-top-button  animate-updown ${
+        isVisible ? "visible" : ""
+      }`}
       onClick={scrollToTop}
     >
       <BsAirplane />

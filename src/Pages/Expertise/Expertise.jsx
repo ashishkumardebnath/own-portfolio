@@ -9,6 +9,7 @@ const Expertise = () => {
       .then((res) => res.json())
       .then((data) => setExpertises(data));
   }, []);
+
   return (
     <div className="mt-10  px-4 py-4  bg-emerald-50 lg:px-10 lg:py-16">
       <div>

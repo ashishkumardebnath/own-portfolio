@@ -5,7 +5,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const Experience = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
-    <div className=" lg:grid grid-cols-2 mt-36 lg:p-10 p-4 shadow-2xl lg:h-64 h-[400px]  rounded-lg mb-28 ">
+    <div className=" animate-updown lg:grid grid-cols-2 mt-36 lg:p-10 p-4 shadow-2xl lg:h-64 h-[400px]  rounded-lg mb-28 ">
       <div className="mb-10 ">
         <p>
           --------{" "}

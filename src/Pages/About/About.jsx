@@ -15,15 +15,15 @@ const About = () => {
         </h1>
         <h1
           className="bannerFont mt-2"
-          style={{ fontSize: "4rem", fontWeight: "700" }}
+          style={{ fontSize: "3rem", fontWeight: "700" }}
         >
           Hey,
         </h1>
         <h1
           className="bannerFont"
-          style={{ fontSize: "4rem", fontWeight: "700" }}
+          style={{ fontSize: "3rem", fontWeight: "700" }}
         >
-          I'm{" "}
+          I am{" "}
           <TypeAnimation
             sequence={["Ashish", 1000]}
             wrapper="span"
@@ -50,7 +50,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <img src={image} />
+        <img className="w-full" src={image} />
       </div>
     </div>
   );

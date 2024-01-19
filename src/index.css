@@ -21,3 +21,53 @@ body {
   border-radius: 8px;
   background: teal;
 }
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid teal;
+  z-index: 1000;
+  pointer-events: none;
+}
+.cursor2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: teal;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+@media (max-width: 1130px) {
+  .cursor {
+    display: none;
+  }
+  .cursor2 {
+    display: none;
+  }
+}
+
+@layer components {
+  .animate-updown {
+    animation-name: animate-updownAnim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes animate-updownAnim {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(10px);
+    }
+  }
+}

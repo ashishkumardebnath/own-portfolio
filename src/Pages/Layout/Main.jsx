@@ -4,11 +4,15 @@ import Footer from "../Shared/Footer/Footer";
 
 const Main = () => {
   return (
-    <div>
+    <>
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className="max-w-screen-xl mx-auto">
+        <div className="mx-4">
+          <Outlet></Outlet>
+        </div>
+      </div>
       <Footer></Footer>
-    </div>
+    </>
   );
 };
 

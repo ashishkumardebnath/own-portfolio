@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./Testimonial.css";
+import Aos from "aos";
 
 const Testimonial = () => {
   const [reviews, setReviews] = useState([]);
@@ -16,6 +17,7 @@ const Testimonial = () => {
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
+
   return (
     <div>
       <div className="my-12 mx-4">

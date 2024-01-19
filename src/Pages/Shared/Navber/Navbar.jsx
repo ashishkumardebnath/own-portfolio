@@ -76,10 +76,7 @@ const NavBar = () => {
               />
               <Navbar.Link
                 linkName={
-                  <a
-                    href="https://www.fiverr.com/dnashish"
-                    target="blank"
-                  >
+                  <a href="https://www.fiverr.com/dnashish" target="blank">
                     <button className="bg-[#fc3a40] flex gap-2 items-center text-white px-4 py-2 lg:ml-44 duration-300 rounded hover:bg-teal-700 ">
                       <FaTelegramPlane className="text-lg"></FaTelegramPlane>{" "}
                       Hire me
@@ -134,11 +131,8 @@ const NavBar = () => {
               />
               <Navbar.Link
                 linkName={
-                  <a
-                    href="https://www.fiverr.com/pro_developer25"
-                    target="blank"
-                  >
-                    <button className="bg-[#fc3a40] flex gap-2 items-center text-white px-1 py-1 duration-300 rounded hover:bg-[#14a800] ">
+                  <a href="https://www.fiverr.com/dnashish" target="blank">
+                    <button className="bg-[#fc3a40] flex gap-2 items-center text-white px-1 py-1 duration-300 rounded hover:bg-teal-700 ">
                       <FaTelegramPlane></FaTelegramPlane> Hire me
                     </button>
                   </a>
