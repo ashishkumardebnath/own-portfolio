@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="grid lg:grid-cols-2  bg-gradient-to-b from-slate-50 to-slate-50 py-6 px-4 mb-12 shadow-lg">
+    <div className="grid lg:grid-cols-2  bg-gradient-to-b from-slate-50 to-slate-50 py-6 px-2 mb-12 shadow-lg">
       <div className="flex justify-center items-center mb-8">
         <Lottie animationData={contactImg}></Lottie>
       </div>

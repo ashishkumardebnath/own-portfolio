@@ -111,7 +111,8 @@ const Footer = () => {
       </div>
       <div className="bg-black text-white py-5">
         <h2 className="lg:text-xl text-center">
-          ©All rights reserved | Ashish Kumar
+          ©All rights reserved |{" "}
+          <span className="text-[#fc3a40]">Ashish Kumar</span>
         </h2>
       </div>
     </footer>

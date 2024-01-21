@@ -18,8 +18,15 @@ const Testimonial = () => {
       .then((data) => setReviews(data));
   }, []);
 
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+      easing: "ease-in-out",
+    });
+  });
+
   return (
-    <div>
+    <div data-aos="fade-up">
       <div className="my-12 mx-4">
         <h2 className=" bannerFont1 lg:text-4xl text-2xl font-semibold text-center mb-5">
           My Client <span className="text-teal-700"> Feedback</span>

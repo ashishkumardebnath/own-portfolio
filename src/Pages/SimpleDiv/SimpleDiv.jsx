@@ -3,7 +3,7 @@ import contactStImg from "../../assets/image/statisticsImg.png";
 const SimpleDiv = () => {
   return (
     <div
-      className=" animate-updown grid lg:grid-cols-2 gap-4  bg-gradient-to-b from-neutral-50 to-slate-100 shadow  py-6  lg:p-16 p-4 lg:my-32 my-14"
+      className=" animate-updown grid lg:grid-cols-2 gap-4  bg-gradient-to-b from-neutral-50 to-slate-100 shadow   py-6  lg:p-16 p-4 lg:my-32 my-14"
       style={{
         backgroundImage: `url("${contactStImg}")`,
         backgroundRepeat: "no-repeat",
