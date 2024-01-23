@@ -5,8 +5,8 @@ import Lottie from "lottie-react";
 
 const Services = () => {
   return (
-    <div className="lg:grid grid-cols-2 flex flex-col-reverse lg:gap-0 gap-8  justify-center items-center lg:mx-12 mx-4  lg:my-20 ">
-      <div className="w-[400px] h-[350px] lg:px-0 px-6">
+    <div className="lg:grid grid-cols-2 flex flex-col-reverse lg:gap-0 gap-8  justify-center items-center lg:mx-12   lg:my-20 ">
+      <div className="lg:w-[400px] lg:h-[350px] lg:px-0 ">
         <Lottie animationData={service}></Lottie>
       </div>
       <div className="mt-16">

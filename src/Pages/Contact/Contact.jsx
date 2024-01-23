@@ -55,7 +55,7 @@ const Contact = () => {
             </button>{" "}
           </p>
           <h1 className="text-4xl font-semibold bannerFont1 mb-5">
-            Feel free to drop me a line
+            Feel free to drop <span className="text-[#fc3a40]">me a line</span>
           </h1>
           <form ref={form} onSubmit={sendEmail}>
             <div className="w-full -mb-3">
